@@ -1,0 +1,113 @@
+/*--------------------------
+     .topper-section
+---------------------------  */
+.topper-section h1 {
+    font-size: 2.5rem;
+    line-height: 45px;
+}
+
+.topper-section span {
+    display: none;
+}
+
+.topper-section p {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.topper-section .live {
+    animation: animation 5s infinite;
+    background: #DD0000;
+    padding: 13px 18px;
+    border-radius: 5px;
+}
+
+/*-------------------------
+   menu section  
+--------------------------*/
+.menu-bar {
+    margin: 35px 0px;
+    display: inline-block;
+}
+
+.menu {
+    margin-right: auto;
+    background: none;
+    border-radius: initial;
+    width: auto;
+    height: auto;
+}
+
+.menu ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    padding: 0px;
+}
+
+.menu .match a {
+    font-size: 17px;
+    line-height: 50px;
+}
+
+.menu ul li a {
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.menu .match {
+    padding: 0px 10px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+/*------------------
+     card section
+---------------------  */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+}
+
+.card {
+    width: 280px;
+}
+
+.card .card-banner img {
+    width: 110px;
+    height: 95px;
+}
+
+.card6 {
+    display: none;
+}
+
+.view a {
+    display: block;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/*----------------------
+        footer section
+----------------------------  */
+.footer-section {
+    padding: 40px 70px;
+}
+
+.upper-section h2 {
+    line-height: 25px;
+}
+
+.lower-section a {
+    line-height: 35px;
+    padding: 20px;
+}
